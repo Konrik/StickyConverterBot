@@ -1,4 +1,4 @@
-# [Sticky, The Converter Telegram Bot](https://t.me/StickyConverterBot) 🫠 - Convert enote links from 7TV to Sticker type files in Telegram easily 
+# [Sticky, The Converter Telegram Bot](https://t.me/StickyConverterBot) 🫠 - Convert emote links from 7TV to Sticker type files in Telegram easily 
 
 Sticky is a Telegram bot that converts 7TV emotes into sticker-ready formats based on Telegram standards. Send a 7TV emote link to the bot, and it will provide you with a downloadable sticker file.
 
