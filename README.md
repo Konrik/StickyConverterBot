@@ -1,17 +1,17 @@
-# Sticky - The 7TV Emotes to Telegram Stickers Converter Bot
+# [Sticky, The Converter Telegram Bot](https://t.me/StickyConverterBot) 🫠 - Convert enote links from 7TV to Sticker type files in Telegram easily 
 
 Sticky is a Telegram bot that converts 7TV emotes into sticker-ready formats based on Telegram standards. Send a 7TV emote link to the bot, and it will provide you with a downloadable sticker file.
 
-##  Features
+## 🌟 Features
 
 - Convert static 7TV emotes to PNG.
 - Convert animated 7TV emotes to WEBM.
 - Automatically resizes to 512 pixels on the larger side of the source file.
 - Ensures animated stickers are within 3 seconds.
 
-##  Setup and Installation
+## ⚙️ Setup and Installation
 
-### Prerequisites
+### Requirements 
 
 - Python 3.8+ (Tested on 3.10.12)
 - [FFmpeg](https://ffmpeg.org/)
@@ -35,7 +35,7 @@ Sticky is a Telegram bot that converts 7TV emotes into sticker-ready formats bas
         ```python
         import os
 
-        API_TOKEN = 'PASTE_YOUR_BOT_TOKEN_HERE'  # Go to @BotFather to get your bot token
+        API_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN', 'PASTE BOT TOKEN HERE')  # Go to @BotFather to get your bot token
         DATABASE = 'users.db'  # You can leave it default
         TMP_DIR = 'tmp'  # You can leave it default
         LOG_FILE = 'bot.log'  # You can leave it default
@@ -66,7 +66,7 @@ Ensure both `ffmpeg` and `magick` commands are added to your system's PATH.
 
 Ensure both `ffmpeg` and `magick` commands are available in your system's PATH.
 
-###  Running the Bot
+### 🚀 Running the Bot
 
 #### Windows:
 ```bat
@@ -78,14 +78,14 @@ python main.py
 python3 main.py
 ```
 
-##  Usage
+## 📖 Usage
 
 1. Start the bot on Telegram by sending `/start`.
 2. Send a 7TV emote link to the bot.
 3. The bot will process the emote and send back the converted file.
 4. Send the message with the file to the official Telegram bot @stickers to upload the future sticker into the sticker pack.
 
-##  Example
+## 📷 Example
 
 **Send a 7TV emote link:**
 ```
@@ -95,18 +95,18 @@ https://7tv.app/emotes/60ae32f9163f5d5d5192fbe5
 **Bot's response:**
 ```
 ## CONVERTED FILE ##
- **Emote name:** CoolCat
- **ID:** 60ae32f9163f5d5d5192fbe5
- **Owner:** 7TV
+📦 **Emote name:** CoolCat
+🆔 **ID:** 60ae32f9163f5d5d5192fbe5
+👤 **Owner:** 7TV
 
 To upload this to your stickerpack, use the official @stickers bot by Telegram. (Transfer this message to it)
 ```
 
-##  Logging
+## 📝 Logging
 
 The bot uses Python's built-in logging module. Logs are displayed in the console.
 
-##  Contributing
+## 🤝 Contributing
 
 1. Fork the repository.
 2. Create a new branch (`git checkout -b feature-branch`).
@@ -114,11 +114,11 @@ The bot uses Python's built-in logging module. Logs are displayed in the console
 4. Push to the branch (`git push origin feature-branch`).
 5. Open a pull request.
 
-##  License
+## 📜 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-##  Acknowledgements
+## 🙏 Acknowledgements
 
 - [aiogram](https://github.com/aiogram/aiogram) - Telegram Bot API framework for Python.
 - [FFmpeg](https://ffmpeg.org/) - A complete, cross-platform solution to record, convert, and stream audio and video.
@@ -127,4 +127,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-*Happy Sticker Making!* 
+*Happy Sticker Making!* 🎨
